@@ -1,7 +1,7 @@
 :root {
     --primary-cyan:hsl(185, 75%, 39%);
     --primary-white:rgb(255, 255, 255);
-    --Dark-gray: hsl(0, 0%, 59%);
+    --Dark-gray: hsl(0, 0%, 65%);
 }
 
 body {
@@ -63,7 +63,7 @@ body {
   }
 
   .bottom{
-      border-top: 2px solid var(--Dark-gray);
+      border-top: 0.5px solid var(--Dark-gray);
       width:100%;
       display:flex;
       position: absolute;
@@ -71,7 +71,7 @@ body {
       bottom:0;
   }
   .social{
-      padding:0  40px;
+      padding:10px  40px;
       line-height:0.2;
   }
   .social-info{
